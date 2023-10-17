@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-double power(int base, int pow=2)
+double power(double base, int pow=2)
 {
 if(pow==0)
     return 1;
@@ -9,6 +9,10 @@ else
 }
 int main()
 {
-double base,
+double base,pow;
 cout<<"enter a number: ";
-cin>>
+cin>> base;
+cout<<"enter power:";
+cin>>pow;
+return 0;
+}
